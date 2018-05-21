@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Matthew Louie's Website</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matthew Louie Development</title>
     <meta name="viewport" content="width=device-width,intial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-  <div id="wrapper">
+  <div id="home_page">
+
+<!-- Navbar -->
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          <i class="fas fa-camera-retro"> Matt Louie Development</i>
+          <i class="fas fa-camera-retro"> Matthew Louie Development</i>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-2">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-">
             <li class="nav-item">
-              <a class="nav-link user-circle" href="#about-me">
+              <a class="nav-link" href="#about-me">
                 <i class="far fa-user-circle"> About Me</i>
               </a>
             </li>
@@ -40,32 +42,34 @@
         </div>
       </nav>
     </header>
+  </div>
 
-    <main>
+<!-- Main Section -->
+  <main>
       <section id="about-me" class="container-fluid content-section text-center">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <h2 class="category">About Me</h2>
             <hr>
-              <p class="center">Hi, my name is Matthew Louie and I'm an aspiring web developer who also loves photography (the photo in the contact
+              <p>Hi, my name is Matthew Louie and I'm an aspiring web developer who also loves photography (the photo in the contact
                 me section was taken by me).
                 I'm currently enrolled in Udacity's Front End Web Development program and I hope to one day to create websites for
-                everyone to use and leverage for their everyday use.</p>
-              <p class="center">I've been searching for years for a career that I enjoy and I believe to have finally found that in web development.
+                everyone to use and leverage for their everyday use.
+              </p>
+              <p>I've been searching for years for a career that I enjoy and I believe to have finally found that in web development.
                 I've jumped from being an analyst, an auditor, and an IT support technician and now I'm trying to transition into web development.
-                so that I can build websites to enable people to use it to their full potential. </p>
+                so that I can build websites to enable people to use it to their full potential.
+              </p>
             <hr>
           </div>
         </div>
 
-        <div class="content">
+        <div class="picture-me">
           <article>
-          <div class="large-window">
+            <div class="picture-window" title="Picture of me">
+            </div>
           </article>
         </div>
-      <!--  <div class="col-lg-6 offset-lg-3 picture-me">
-          <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/p320x320/31590588_10156404182268792_563566637710573568_n.jpg?_nc_cat=0&oh=4f665128b9b34f491100209d08d72cc3&oe=5B9A393F" alt="picture of Matthew Louie">
-        </div> -->
       </section>
 
       <section id="work" class="container-fluid content-section text-center">
@@ -73,46 +77,50 @@
           <h2 class="category_2 col-lg-6 offset-lg-3">Work</h2>
           <div class="col-lg-4">
             <a href="https://codepen.io/mlouie915/full/yvdPVK/" target="_blank">
-              <img src="./Images/Pixel_Art_Maker.png" class="img-thumbnail">
-              <p class="work-desciption">
-                One of the projects with the Grow with Google Scholarship Program was to build a Pixel Art Maker using HTML, CSS. and JavaScript.
-                You can make a grid, select a color, and then click or drag in order to create art or maybe a happy little tree.  One of my favorite projects to date!
-              </p>
+              <img src="./Images/Pixel_Art_Maker.png" alt="Pixel Art Maker Picture" class="img-thumbnail">
             </a>
+            <p class="work-desciption">
+              One of the projects with the Grow with Google Scholarship Program was to build a Pixel Art Maker using HTML, CSS. and JavaScript.
+              You can make a grid, select a color, and then click or drag in order to create art or maybe a happy little tree.  One of my favorite projects to date!
+            </p>
           </div>
           <div class="col-lg-4">
             <a href="https://codepen.io/mlouie915/full/opVjzK/" target="_blank">
-              <img src="./Images/Animal_Card.png" class="img-thumbnail animal_card">
-              <p class="work-desciption">
-                This was one of the first projects with the Grow with Google Scholarship Program; to build an animal trading card of your favorite animal.
-                Utilizing HTML and CSS, we were to make a trading card of our favorite animal with some basic and fun information of the animals.
-              </p>
+              <img src="./Images/Animal_Card.png" alt="Animal Trading Card Picture" class="img-thumbnail animal_card">
             </a>
+            <p class="work-desciption">
+              This was one of the first projects with the Grow with Google Scholarship Program; to build an animal trading card of your favorite animal.
+              Utilizing HTML and CSS, we were to make a trading card of our favorite animal with some basic and fun information of the animals.
+            </p>
           </div>
           <div class="col-lg-4">
             <a href="" target="_blank">
-              <img src="./Images/Coming_soon.jpg" class="img-thumbnail">
-              <p class="work-desciption">
-                More projects to come soon as I continue on with the Udacity Front End Web Development Nanodegree Program!
-              </p>
+              <img src="./Images/Coming_soon.jpg" alt="Coming Soon Picture" class="img-thumbnail">
             </a>
+            <p class="work-desciption">
+              More projects to come soon as I continue on with the Udacity Front End Web Development Nanodegree Program!
+            </p>
           </div>
         </div>
       </section>
 
       <section class="content-section">
-        <div class="container-fluid contact_me">
+        <div class="container-fluid contact-me" title="San Francisco Lights">
           <div class="row">
-              <h2 id="contact" class="title category col-lg-6 offset-lg-3">Connect with me!</h2>
-                <div class="contact-box1 col-lg-6 offset-lg-3">
+              <h2 id="contact" class="category_3 col-lg-6 offset-lg-3">Connect with me!</h2>
+                <div class="contact-box col-lg-6 offset-lg-3">
                   <a href="https://github.com/mattlouie" target="_blank">
                     <i class="fab fa-github-square fa-3x"></i>
+                  </a>
                   <a href="https://www.linkedin.com/in/matthew-louie1/" target="_blank">
-                  <i class="fab fa-linkedin fa-3x"></i>
+                    <i class="fab fa-linkedin fa-3x"></i>
+                  </a>
                 </div>
           </div>
         </div>
       </section>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

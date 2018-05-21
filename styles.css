@@ -1,21 +1,13 @@
+/* Navbar styles */
 .navbar-brand {
   color: #fff;
   padding-left: 5%;
 }
+
 .nav-link {
   color: #fff;
 }
-.picture-me {
-  padding-top: 10%;
-  position: fixed;
-}
-.portfolio {
-  background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12657872_10153940641318792_8688407774029236799_o.jpg?_nc_cat=0&oh=1fd902b5107d940b3e6f4);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-}
+
 .far {
   margin-right: 0.5em;
   display: inline-block;
@@ -24,8 +16,86 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   color: #fff;
-  padding-bottom: 20%;
 }
+
+/* Main section styles */
+
+/* About me section */
+#about-me {
+  padding-top: 10%;
+}
+
+.category {
+  font-weight: bold;
+}
+
+.picture-me {
+  padding-top: 10%;
+}
+
+.picture-window {
+  height: 320px;
+  margin: auto;
+  background-image: url(https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/p320x320/31590588_10156404182268792_563566637710573568_n.jpg?_nc_cat=0&oh=4f665128b9b34f491100209d08d72cc3&oe=5B9A393F);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Work section*/
+#work {
+  padding-top: 5%;
+}
+
+.thumbnail{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: 50%;
+}
+
+.animal_card{
+  max-height: 235px;
+}
+
+.category_2 {
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+.work-desciption {
+  color: #000;
+  padding-top: 5%;
+}
+
+/* Contact section */
+#contact {
+  color: #fff;
+  text-shadow: 3px 3px #000;
+}
+
+.category_3 {
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10%;
+}
+
+.contact-me {
+  margin-top: 5%;
+  background-image: url(./Images/City_Lights.JPG);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.contact-box {
+  color: #fff;
+}
+
 .fab {
   margin-right: 0.5em;
   display: inline-block;
@@ -35,61 +105,4 @@
   -webkit-font-smoothing: antialiased;
   color: #fff;
   padding-bottom: 20%;
-}
-.large-window {
-  height: 320px;
-  border-radius: 50%;
-  margin: auto;
-  margin-bottom: 80px;
-  background-image: url(https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/p320x320/31590588_10156404182268792_563566637710573568_n.jpg?_nc_cat=0&oh=4f665128b9b34f491100209d08d72cc3&oe=5B9A393F);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.thumbnail{
-  padding: .25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: .25rem;
-  max-width: 100%;
-  height: 50%;
-}
-.animal_card{
-  max-height: 235px;
-}
-.category {
-  font-weight: bold;
-}
-.category_2 {
-  padding-bottom: 5%;
-  font-weight: bold;
-}
-.category_3 {
-  font-weight: bold;
-}
-.work-desciption {
-  color: #000;
-  padding-top: 5%;
-}
-.title{
-  color: #fff;
-  padding-top: 10%;
-}
-#about-me {
-  padding-top: 10%;
-}
-#work {
-  padding-top: 10%;
-}
-.contact_me {
-  margin-top: 5%;
-  background-image: url(./Images/City_Lights.JPG);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-}
-.contact-box1 {
-  color: #fff;
 }
