@@ -1,0 +1,112 @@
+/* Navbar styles */
+.navbar-brand {
+  color: #fff;
+  padding-left: 5%;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.far {
+  margin-right: 0.5em;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+/* Main section styles */
+
+/* About me section */
+#about-me {
+  padding-top: 10%;
+}
+
+.category {
+  font-weight: bold;
+}
+
+.picture-me {
+  padding-top: 10%;
+}
+
+.picture-window {
+  height: 320px;
+  margin: auto;
+  background-image: url(https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/p320x320/31590588_10156404182268792_563566637710573568_n.jpg?_nc_cat=0&oh=4f665128b9b34f491100209d08d72cc3&oe=5B9A393F);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Work section*/
+#work {
+  padding-top: 5%;
+}
+
+.thumbnail{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: 50%;
+}
+
+.animal_card{
+  max-height: 235px;
+}
+
+.category_2 {
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+.work-desciption {
+  color: #000;
+  padding-top: 5%;
+}
+
+/* Contact section */
+#contact {
+  color: #fff;
+  text-shadow: 3px 3px #000;
+}
+
+.category_3 {
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10%;
+}
+
+.contact-me {
+  margin-top: 5%;
+  background-image: url(../Images/City_Lights.JPG);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.contact-box {
+  color: #fff;
+}
+
+.fab {
+  margin-right: 0.5em;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  padding-bottom: 20%;
+}
+
+.copyright {
+  color: #fff;
+}
